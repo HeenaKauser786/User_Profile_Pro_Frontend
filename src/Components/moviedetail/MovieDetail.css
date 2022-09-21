@@ -1,0 +1,27 @@
+div.head {
+  opacity: 0.3;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.scroll {
+  overflow-x: scroll;
+}
+
+.comments {
+  text-align: left;
+}
+
+#comment-header{
+  background-color: rgba(211, 211, 211, 0.753);
+}
+
+#fa-plane {
+  color: rgb(16, 135, 175) !important;
+  transition: 0.5s;
+}
+
+#fa-plane:hover {
+  color: darkblue !important;
+}

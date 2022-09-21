@@ -1,0 +1,113 @@
+.sign-panels {
+  padding: 40px;
+
+  min-width: 280px;
+
+  margin: 40px auto;
+
+  text-align: center;
+
+  border-radius: 20px;
+
+  background-color: #fff;
+
+  box-shadow: 0px 15px 20px 0px rgba(128, 128, 128, 0.76);
+}
+
+#LoginPage{
+  background-position: center;
+  background-size: cover;
+}
+
+.login {
+  position: relative;
+}
+
+.sign-panels input {
+  width: 100%;
+
+  display: block;
+
+  margin-bottom: 15px;
+
+  height: 50px;
+
+  border-radius: 50px;
+
+  border: none;
+
+  background: #fff;
+
+  padding: 10px 20px;
+
+  font-size: 15px;
+
+  color: #7c7c7c;
+
+  font-weight: 500;
+
+  border: 1px solid #eee;
+}
+
+.sign-panels input:focus {
+  outline: none;
+}
+
+.sign-panels input[type="checkbox"] {
+  display: none;
+}
+
+.sign-panels input[type="checkbox"]:checked + label:before {
+  background: #ff5722;
+
+  box-shadow: 0 0 0 5px #ff5722;
+
+  -webkit-transition: all 0.3s ease;
+
+  transition: all 0.3s ease;
+}
+
+.btn-signin {
+  display: inline-block;
+
+  width: 25%;
+
+  margin-top: 10px;
+
+  margin-right: 45px;
+
+  background: #ec581e;
+
+  border-radius: 10px;
+
+  padding: 5px;
+
+  font-size: 20px;
+
+  color: #fff;
+
+  text-decoration: none;
+
+  font-weight: 500;
+
+  border: none;
+
+  box-shadow: none;
+
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .sign-panels input[type="checkbox"] + label {
+    width: 100%;
+  }
+
+  .btn-signin {
+    width: 80%;
+    margin-left: 3vw;
+  }
+
+  .title span {
+    font-size: 36px;
+  }
+}

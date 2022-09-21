@@ -1,0 +1,21 @@
+.box {
+  box-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.5);
+
+  transition: transform 1s, box-shadow 1s;
+}
+
+.box:hover {
+  transform: scale(1.03);
+
+  box-shadow: 0.2rem 0.3rem 0.8rem rgba(0, 0, 0, 0.5);
+}
+
+.fa-heart:hover{
+  cursor: pointer;
+}
+
+.fa-heart-o:hover{
+  cursor: pointer;
+}
+
+
